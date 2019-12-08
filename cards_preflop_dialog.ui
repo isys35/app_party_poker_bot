@@ -1,0 +1,2781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>572</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="1" column="1">
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A8o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>AKo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>ATo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="pushButton">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>AA</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A9o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>AQo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>AJo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="9">
+      <widget class="QPushButton" name="pushButton_34">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K5s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="8">
+      <widget class="QPushButton" name="pushButton_33">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K6s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="11">
+      <widget class="QPushButton" name="pushButton_36">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K3s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="10">
+      <widget class="QPushButton" name="pushButton_35">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K4s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" rowspan="2">
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>AKs</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="pushButton_38">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KQo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="12">
+      <widget class="QPushButton" name="pushButton_37">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K2s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="9">
+      <widget class="QPushButton" name="pushButton_22">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A5s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="10">
+      <widget class="QPushButton" name="pushButton_23">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A4s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>AQs</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A5o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A6o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="pushButton_39">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>QQ</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QPushButton" name="pushButton_42">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q9s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="pushButton_40">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>QJs</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QPushButton" name="pushButton_41">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>QTs</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="8">
+      <widget class="QPushButton" name="pushButton_45">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q6s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="QPushButton" name="pushButton_43">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q8s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="QPushButton" name="pushButton_44">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q7s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="9">
+      <widget class="QPushButton" name="pushButton_46">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q5s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="12">
+      <widget class="QPushButton" name="pushButton_49">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q2s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QPushButton" name="pushButton_50">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KJo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="11">
+      <widget class="QPushButton" name="pushButton_48">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q3s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="10">
+      <widget class="QPushButton" name="pushButton_47">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q4s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QPushButton" name="pushButton_52">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>JJ</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QPushButton" name="pushButton_51">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>QJo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A2o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A9s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="8">
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A6s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QPushButton" name="pushButton_20">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A7s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="pushButton_27">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KQs</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="pushButton_29">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KTs</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="pushButton_26">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KK</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="pushButton_28">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KJs</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QPushButton" name="pushButton_30">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K9s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7">
+      <widget class="QPushButton" name="pushButton_32">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K7s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QPushButton" name="pushButton_31">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K8s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A7o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A4o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A3o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>AJs</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="11">
+      <widget class="QPushButton" name="pushButton_24">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A3s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QPushButton" name="pushButton_19">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>A8s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>ATs</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="12">
+      <widget class="QPushButton" name="pushButton_25">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+       <property name="text">
+        <string>A2s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QPushButton" name="pushButton_65">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K7o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QPushButton" name="pushButton_63">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K9o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QPushButton" name="pushButton_67">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K5o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="pushButton_64">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K8o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QPushButton" name="pushButton_66">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K6o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="8">
+      <widget class="QPushButton" name="pushButton_57">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J6s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="6">
+      <widget class="QPushButton" name="pushButton_55">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J8s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="7">
+      <widget class="QPushButton" name="pushButton_56">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J7s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QPushButton" name="pushButton_53">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>JTo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QPushButton" name="pushButton_54">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J9s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="11">
+      <widget class="QPushButton" name="pushButton_60">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J3s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="10">
+      <widget class="QPushButton" name="pushButton_59">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J4s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="12">
+      <widget class="QPushButton" name="pushButton_61">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J2s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="9">
+      <widget class="QPushButton" name="pushButton_58">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J5s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QPushButton" name="pushButton_62">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>KTo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="3">
+      <widget class="QPushButton" name="pushButton_80">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>JTo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="2">
+      <widget class="QPushButton" name="pushButton_78">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q3o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QPushButton" name="pushButton_81">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J9o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="2">
+      <widget class="QPushButton" name="pushButton_79">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q2o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="2">
+      <widget class="QPushButton" name="pushButton_77">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q4o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="1">
+      <widget class="QPushButton" name="pushButton_68">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K4o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QPushButton" name="pushButton_69">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K3o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QPushButton" name="pushButton_70">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>K2o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="2">
+      <widget class="QPushButton" name="pushButton_71">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>QTo</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="pushButton_73">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q8o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="pushButton_74">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q7o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="2">
+      <widget class="QPushButton" name="pushButton_76">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q5o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QPushButton" name="pushButton_72">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q9o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="2">
+      <widget class="QPushButton" name="pushButton_75">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Q6o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="3">
+      <widget class="QPushButton" name="pushButton_82">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J8o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="3">
+      <widget class="QPushButton" name="pushButton_85">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J5o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="3">
+      <widget class="QPushButton" name="pushButton_86">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J4o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="3">
+      <widget class="QPushButton" name="pushButton_84">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J6o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="3">
+      <widget class="QPushButton" name="pushButton_83">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J7o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="3">
+      <widget class="QPushButton" name="pushButton_88">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J2o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="5">
+      <widget class="QPushButton" name="pushButton_90">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T9s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="3">
+      <widget class="QPushButton" name="pushButton_87">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>J3o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="4">
+      <widget class="QPushButton" name="pushButton_89">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>TT</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="7">
+      <widget class="QPushButton" name="pushButton_92">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T7s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="10">
+      <widget class="QPushButton" name="pushButton_95">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T4s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="6">
+      <widget class="QPushButton" name="pushButton_91">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T8s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="8">
+      <widget class="QPushButton" name="pushButton_93">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T6s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="9">
+      <widget class="QPushButton" name="pushButton_94">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T5s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="5">
+      <widget class="QPushButton" name="pushButton_108">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>97o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="5">
+      <widget class="QPushButton" name="pushButton_109">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>96o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="5">
+      <widget class="QPushButton" name="pushButton_106">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>99</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="5">
+      <widget class="QPushButton" name="pushButton_110">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>95o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="5">
+      <widget class="QPushButton" name="pushButton_107">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>98o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="12">
+      <widget class="QPushButton" name="pushButton_97">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T2s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="11">
+      <widget class="QPushButton" name="pushButton_96">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T3s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="4">
+      <widget class="QPushButton" name="pushButton_99">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T8o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="4">
+      <widget class="QPushButton" name="pushButton_98">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T9o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="4">
+      <widget class="QPushButton" name="pushButton_100">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T7o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="4">
+      <widget class="QPushButton" name="pushButton_101">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T6o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="4">
+      <widget class="QPushButton" name="pushButton_104">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T3o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="4">
+      <widget class="QPushButton" name="pushButton_105">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T2o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="4">
+      <widget class="QPushButton" name="pushButton_102">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T5o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="4">
+      <widget class="QPushButton" name="pushButton_103">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>T4o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="10">
+      <widget class="QPushButton" name="pushButton_131">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>84s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="12">
+      <widget class="QPushButton" name="pushButton_133">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>82s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="11">
+      <widget class="QPushButton" name="pushButton_132">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>83s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="7">
+      <widget class="QPushButton" name="pushButton_134">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>77</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="7">
+      <widget class="QPushButton" name="pushButton_139">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>72o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="7">
+      <widget class="QPushButton" name="pushButton_136">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>75o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="7">
+      <widget class="QPushButton" name="pushButton_137">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>74o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="7">
+      <widget class="QPushButton" name="pushButton_135">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>76o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="7">
+      <widget class="QPushButton" name="pushButton_138">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>73o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="5">
+      <widget class="QPushButton" name="pushButton_113">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>92o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="5">
+      <widget class="QPushButton" name="pushButton_111">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>94o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="5">
+      <widget class="QPushButton" name="pushButton_112">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>93o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="6">
+      <widget class="QPushButton" name="pushButton_114">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>98s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="9">
+      <widget class="QPushButton" name="pushButton_117">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>95s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="11">
+      <widget class="QPushButton" name="pushButton_119">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>93s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="7">
+      <widget class="QPushButton" name="pushButton_115">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>97s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="10">
+      <widget class="QPushButton" name="pushButton_118">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>94s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="8">
+      <widget class="QPushButton" name="pushButton_116">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>96s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="12">
+      <widget class="QPushButton" name="pushButton_120">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>92s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="6">
+      <widget class="QPushButton" name="pushButton_122">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>87o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="6">
+      <widget class="QPushButton" name="pushButton_123">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>86o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="6">
+      <widget class="QPushButton" name="pushButton_124">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>85o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="6">
+      <widget class="QPushButton" name="pushButton_121">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>88</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="6">
+      <widget class="QPushButton" name="pushButton_127">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>82o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="6">
+      <widget class="QPushButton" name="pushButton_125">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>84o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="6">
+      <widget class="QPushButton" name="pushButton_126">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>83o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="7">
+      <widget class="QPushButton" name="pushButton_128">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>87s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="8">
+      <widget class="QPushButton" name="pushButton_129">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>86s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="9">
+      <widget class="QPushButton" name="pushButton_130">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>85s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="8">
+      <widget class="QPushButton" name="pushButton_140">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>76o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="10">
+      <widget class="QPushButton" name="pushButton_142">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>74s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="12">
+      <widget class="QPushButton" name="pushButton_144">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>72s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="9">
+      <widget class="QPushButton" name="pushButton_141">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>75s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="11">
+      <widget class="QPushButton" name="pushButton_143">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>73s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="11">
+      <widget class="QPushButton" name="pushButton_148">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>63s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="9">
+      <widget class="QPushButton" name="pushButton_146">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>65s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="8">
+      <widget class="QPushButton" name="pushButton_145">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>66</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="10">
+      <widget class="QPushButton" name="pushButton_147">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>64s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="8">
+      <widget class="QPushButton" name="pushButton_151">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>64o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="8">
+      <widget class="QPushButton" name="pushButton_152">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>63o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="8">
+      <widget class="QPushButton" name="pushButton_153">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>62o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="12">
+      <widget class="QPushButton" name="pushButton_149">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>62s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="8">
+      <widget class="QPushButton" name="pushButton_150">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>65o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="9">
+      <widget class="QPushButton" name="pushButton_154">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>55</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="9">
+      <widget class="QPushButton" name="pushButton_155">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>54o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="9">
+      <widget class="QPushButton" name="pushButton_156">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>53o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="9">
+      <widget class="QPushButton" name="pushButton_157">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>52o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="10">
+      <widget class="QPushButton" name="pushButton_158">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>54s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="10">
+      <widget class="QPushButton" name="pushButton_161">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>44</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="11">
+      <widget class="QPushButton" name="pushButton_159">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>53s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="10">
+      <widget class="QPushButton" name="pushButton_162">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>43o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="12">
+      <widget class="QPushButton" name="pushButton_160">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>52s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="10">
+      <widget class="QPushButton" name="pushButton_163">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>42o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="11">
+      <widget class="QPushButton" name="pushButton_164">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>43s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="12">
+      <widget class="QPushButton" name="pushButton_165">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>42s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="11">
+      <widget class="QPushButton" name="pushButton_166">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>33</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="11">
+      <widget class="QPushButton" name="pushButton_168">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>32o</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="12">
+      <widget class="QPushButton" name="pushButton_167">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>22</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="12">
+      <widget class="QPushButton" name="pushButton_169">
+       <property name="minimumSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>32s</string>
+       </property>
+       <property name="checkable">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="1">
+    <widget class="QTextEdit" name="textEdit"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>accepted()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>544</x>
+     <y>423</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>157</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>buttonBox</sender>
+   <signal>rejected()</signal>
+   <receiver>Dialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>544</x>
+     <y>423</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>439</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Файл стратегии</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_42">
+        <property name="text">
+         <string>Обзор</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QGroupBox" name="groupBox_3">
+        <property name="title">
+         <string>Открытие</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="text">
+            <string>EP</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="text">
+            <string>MP</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="text">
+            <string>CO</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string>BTN</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="text">
+            <string>SB</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="title">
+         <string>Изолейт</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QPushButton" name="pushButton_11">
+           <property name="text">
+            <string>MP</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_12">
+           <property name="text">
+            <string>CO</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_13">
+           <property name="text">
+            <string>BTN</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_14">
+           <property name="text">
+            <string>SB</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_15">
+           <property name="text">
+            <string>BB</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+        <zorder>pushButton_15</zorder>
+        <zorder>pushButton_11</zorder>
+        <zorder>pushButton_12</zorder>
+        <zorder>pushButton_13</zorder>
+        <zorder>pushButton_14</zorder>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_8">
+        <property name="title">
+         <string>Колл 3бета</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QPushButton" name="pushButton_27">
+           <property name="text">
+            <string>vs MP</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_28">
+           <property name="text">
+            <string>vs CO</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_29">
+           <property name="text">
+            <string>vs BTN</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_26">
+           <property name="text">
+            <string>vs SB</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_30">
+           <property name="text">
+            <string>vs BB</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_7">
+        <property name="title">
+         <string>Колл в холодную</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QPushButton" name="pushButton_21">
+           <property name="text">
+            <string>MP</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_22">
+           <property name="text">
+            <string>CO</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_23">
+           <property name="text">
+            <string>BTN</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_24">
+           <property name="text">
+            <string>SB</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_25">
+           <property name="text">
+            <string>BB</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_6">
+        <property name="title">
+         <string>Сквиз</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <widget class="QPushButton" name="pushButton_31">
+           <property name="text">
+            <string>MP</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_32">
+           <property name="text">
+            <string>CO</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_33">
+           <property name="text">
+            <string>BTN</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_34">
+           <property name="text">
+            <string>SB</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_35">
+           <property name="text">
+            <string>BB</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_5">
+        <property name="title">
+         <string>5bet</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <item>
+          <widget class="QPushButton" name="pushButton_37">
+           <property name="text">
+            <string>PushButton</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_38">
+           <property name="text">
+            <string>PushButton</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_39">
+           <property name="text">
+            <string>PushButton</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_40">
+           <property name="text">
+            <string>PushButton</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_41">
+           <property name="text">
+            <string>PushButton</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_4">
+        <property name="title">
+         <string>4bet</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QPushButton" name="pushButton_16">
+           <property name="text">
+            <string>vs MP</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_17">
+           <property name="text">
+            <string>vs CO</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_18">
+           <property name="text">
+            <string>vs BTN</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_19">
+           <property name="text">
+            <string>vs SB</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_20">
+           <property name="text">
+            <string>vs BB</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QGroupBox" name="groupBox_2">
+        <property name="title">
+         <string>3bet</string>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="text">
+            <string>vs EP</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_7">
+           <property name="text">
+            <string>vs MP</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="text">
+            <string>vs CO</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_9">
+           <property name="text">
+            <string>vs BTN</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_10">
+           <property name="text">
+            <string>vs SB</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_43">
+        <property name="text">
+         <string>Применить</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_36">
+        <property name="text">
+         <string>Сохранить</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>439</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
