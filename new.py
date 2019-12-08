@@ -12,11 +12,37 @@ class MainApp(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         self.open_raise_cards = {'EP': [], 'MP': [], 'CO': [], 'BTN': [], 'SB': []}
         self.pushButton.clicked.connect(lambda: self.open_cards_dialog(self.pushButton))
         self.pushButton_2.clicked.connect(lambda: self.open_cards_dialog(self.pushButton_2))
+        self.pushButton_3.clicked.connect(lambda: self.open_cards_dialog(self.pushButton_3))
+        self.pushButton_4.clicked.connect(lambda: self.open_cards_dialog(self.pushButton_4))
+        self.pushButton_5.clicked.connect(lambda: self.open_cards_dialog(self.pushButton_5))
+        self.update_opening_range()
 
     def open_cards_dialog(self, button):
         dialog = CardApp('OR', button.text(), self.open_raise_cards[button.text()])
         dialog.exec_()
         self.open_raise_cards[button.text()] = dialog.cards
+        self.update_opening_range()
+
+    # комбинаторика  С(n,m) = n!/m!(n-m)!
+    def update_opening_range(self):
+        buttons = [self.pushButton, self.pushButton_2, self.pushButton_3, self.pushButton_4, self.pushButton_5]
+        # количество пар С(4,2) = 6, 6*13(кол-во номиналов) = 78
+        # непары С(52,2) = 1326, 1326 - 78 = 1248
+        # одномастные  С(13,2)*4 = 312
+        # разномастные 1248 - 312 = 936
+        for button in buttons:
+            if self.open_raise_cards[button.text()]:
+                count = 0
+                for card in self.open_raise_cards[button.text()]:
+                    if card[0] == card[1]:
+                        count += 6
+                    elif card[-1] == 's':
+                        count += 4
+                    elif card[-1] == 'o':
+                        count += 12
+                opening_range = 100*count/1326
+                print(opening_range)
+
 
 
 class CardApp(QtWidgets.QDialog, cards_dialog.Ui_Dialog):
