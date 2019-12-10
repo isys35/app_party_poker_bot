@@ -2,6 +2,7 @@ import sys  # sys нужен для передачи argv в QApplication
 from PyQt5 import QtWidgets, QtCore
 import mainwindow
 import cards_dialog
+import json
 
 
 class MainApp(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
@@ -15,6 +16,8 @@ class MainApp(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
         self.pushButton_3.clicked.connect(lambda: self.open_cards_dialog(self.pushButton_3))
         self.pushButton_4.clicked.connect(lambda: self.open_cards_dialog(self.pushButton_4))
         self.pushButton_5.clicked.connect(lambda: self.open_cards_dialog(self.pushButton_5))
+        self.pushButton_36.clicked.connect(self.save_strategy)
+        self.pushButton_42.clicked.connect(self.load_strategy)
         self.update_opening_range()
 
     def open_cards_dialog(self, button):
@@ -26,6 +29,7 @@ class MainApp(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
     # комбинаторика  С(n,m) = n!/m!(n-m)!
     def update_opening_range(self):
         buttons = [self.pushButton, self.pushButton_2, self.pushButton_3, self.pushButton_4, self.pushButton_5]
+        labels = [self.label_2, self.label_3, self.label_4, self.label_5, self.label_6]
         # количество пар С(4,2) = 6, 6*13(кол-во номиналов) = 78
         # непары С(52,2) = 1326, 1326 - 78 = 1248
         # одномастные  С(13,2)*4 = 312
@@ -41,9 +45,23 @@ class MainApp(QtWidgets.QMainWindow, mainwindow.Ui_MainWindow):
                     elif card[-1] == 'o':
                         count += 12
                 opening_range = 100*count/1326
-                print(opening_range)
+                labels[buttons.index(button)].setText(str(round(opening_range, 2))+'%')
+            else:
+                labels[buttons.index(button)].setText('0%')
 
+    def save_strategy(self):
+        file = QtWidgets.QFileDialog.getSaveFileName(self, 'Сохранить', './', 'JSON (*.json)')
+        data = {'OR': self.open_raise_cards}
+        with open(file[0], "w") as write_file:
+            json.dump(data, write_file)
 
+    def load_strategy(self):
+        file = QtWidgets.QFileDialog.getOpenFileName(self, 'Файл JSON', './', 'JSON (*.json)')
+        with open(file[0], "r") as read_file:
+            data = json.load(read_file)
+        self.open_raise_cards = data['OR']
+        self.lineEdit.setText(file[0])
+        self.update_opening_range()
 
 class CardApp(QtWidgets.QDialog, cards_dialog.Ui_Dialog):
     def __init__(self, action, position,cards):
